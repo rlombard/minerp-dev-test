@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\1.json" />
+    <None Remove="Files\2.json" />
+    <None Remove="Files\3.json" />
+    <None Remove="Files\4.json" />
+    <None Remove="Files\5.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Files\2.json" />
+    <EmbeddedResource Include="Files\4.json" />
+    <EmbeddedResource Include="Files\5.json" />
+    <EmbeddedResource Include="Files\1.json" />
+    <EmbeddedResource Include="Files\3.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

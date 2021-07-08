@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineRP.Geometry", "MineRP.Geometry\MineRP.Geometry.csproj", "{CF25AC77-1512-41BB-9B38-86F3053B2F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineRP.DeveloperTest", "MineRP.DeveloperTest.Console\MineRP.DeveloperTest.csproj", "{B86F868E-FB69-4E4F-B1B5-2B454E08ABB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineRP.Geometry.Tests", "MineRP.GeometryTests\MineRP.Geometry.Tests.csproj", "{7BEBA658-3D8C-43AA-A85D-F81C764F133E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF25AC77-1512-41BB-9B38-86F3053B2F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF25AC77-1512-41BB-9B38-86F3053B2F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF25AC77-1512-41BB-9B38-86F3053B2F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF25AC77-1512-41BB-9B38-86F3053B2F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86F868E-FB69-4E4F-B1B5-2B454E08ABB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86F868E-FB69-4E4F-B1B5-2B454E08ABB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86F868E-FB69-4E4F-B1B5-2B454E08ABB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86F868E-FB69-4E4F-B1B5-2B454E08ABB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEBA658-3D8C-43AA-A85D-F81C764F133E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEBA658-3D8C-43AA-A85D-F81C764F133E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEBA658-3D8C-43AA-A85D-F81C764F133E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEBA658-3D8C-43AA-A85D-F81C764F133E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1659E941-B72F-4F3F-8AA0-142EE598B524}
+	EndGlobalSection
+EndGlobal
